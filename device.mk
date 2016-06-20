@@ -185,7 +185,7 @@ $(call inherit-product, build/target/product/verity.mk)
 # vboot
 PRODUCT_SUPPORTS_BOOT_SIGNER := false
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/700b0600.sdhci/by-name/APP
-PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/700b0600.sdhci/by-name/VNR
+#PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/700b0600.sdhci/by-name/VNR
 
 $(call inherit-product-if-exists, hardware/nvidia/tegra132/tegra132.mk)
 $(call inherit-product-if-exists, vendor/google/dragon/device-vendor.mk)
