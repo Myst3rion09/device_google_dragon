@@ -46,9 +46,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf \
     fs_config_files \
-    crash_dispatcher \
-    crash_collector \
-    CrashReportProvider \
     fwtool
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
@@ -188,7 +185,7 @@ PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/700b0600.sdhci/by-name/AP
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/700b0600.sdhci/by-name/VNR
 
 $(call inherit-product-if-exists, hardware/nvidia/tegra132/tegra132.mk)
-$(call inherit-product-if-exists, vendor/google_devices/dragon/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/dragon/device-vendor.mk)
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
 ENABLE_LIBDRM := true
