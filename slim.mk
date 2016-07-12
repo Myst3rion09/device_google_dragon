@@ -40,5 +40,5 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=ryu \
-    BUILD_FINGERPRINT=google/ryu/dragon:6.0.1/MXC89H/2862841:userdebug/dev-keys \
-    PRIVATE_BUILD_DESC="ryu-user 6.0.1 MXC89H 2862841 dev-keys"
+    BUILD_FINGERPRINT=google/ryu/dragon:6.0.1/MXC89K/3008990:userdebug/dev-keys \
+    PRIVATE_BUILD_DESC="ryu-user 6.0.1 MXC89K 3008990 dev-keys"
