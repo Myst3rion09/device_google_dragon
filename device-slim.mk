@@ -1,3 +1,7 @@
+# Camera flash prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.flash_off=0
+
 # Facelock props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.black_timeout=700 \
