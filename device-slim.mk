@@ -2,6 +2,11 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.flash_off=0
 
+# DRM props
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true \
+    ro.com.widevine.cachesize=16777216
+
 # Facelock props
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.black_timeout=700 \
