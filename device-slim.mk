@@ -1,3 +1,8 @@
+# apns.conf and old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/google/dragon/apns-conf.xml:system/etc/apns-conf.xml \
+    device/google/dragon/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 # Camera flash prop
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.flash_off=0
