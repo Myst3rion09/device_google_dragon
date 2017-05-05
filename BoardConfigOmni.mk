@@ -12,6 +12,9 @@ TARGET_IGNORE_VENDOR_AUDIO_EFFECTS_CONF := true
 # Enable vendor image symlink
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 
+# Disable OMX video crop
+TARGET_DISABLE_OMX_VIDEO_CROP_OUTPUT := true
+
 # TWRP
 TW_THEME := landscape_hdpi
 TW_NO_SCREEN_TIMEOUT := true
