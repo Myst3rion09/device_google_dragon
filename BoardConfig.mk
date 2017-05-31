@@ -120,3 +120,5 @@ ifeq ($(SECURE_OS_BUILD),tlk)
 endif
 
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.dragon libhealthd.dragon
+
+-include device/google/dragon/BoardConfigSlim.mk
